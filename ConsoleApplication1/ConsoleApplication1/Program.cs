@@ -11,8 +11,7 @@ namespace ConsoleApplication1
 
         static void Main(string[] args)
         {
-            if (IsOdd(6) == true)
-                Console.Write("so le");
+           
 
 
         }
@@ -115,6 +114,7 @@ namespace ConsoleApplication1
             Random rd2 = new Random();
             return rd2.Next(0, 1);
         }
+        
     }
 }
 
